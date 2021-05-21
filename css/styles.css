@@ -56,6 +56,10 @@
 
 .contacts {
   color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -187,6 +191,7 @@
 /* PORTFOLIO STYLES*/
 
 .filter-button {
+  font-family: inherit;
   color: var(--black);
   font-weight: 500;
   font-size: 16px;
@@ -204,6 +209,17 @@
 
 .portf-tile {
   width: 370px;
-  height: 404px;
   border: var(--portf-tile-border);
+}
+
+.project-name {
+  color: var(--black);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.875;
 }
